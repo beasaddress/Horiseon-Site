@@ -96,13 +96,14 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+/*since all the images inside the article element, which is inside the benefits class, require the same measurements...i just condensed the CSS commands  */
 
 .benefits article img {
     display: block;
     margin: 10px auto;
     max-width: 150px; 
 }
-
+/*again, i did the same thing with the main element..all sections required the same formatting so I condensed the CSS coding */
 main section {
     margin-bottom: 20px;
     padding: 50px;
@@ -111,10 +112,11 @@ main section {
     background-color: #0072bb;
     color: #ffffff;
 }
+/*all images inside the section elements required the same max height...so they condesed using main section img */
 main section img {
     max-height: 200px;
 }
-
+/*since headers in the section element required the same margin bottom and font size, they were condensed in the css file here */
 main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
