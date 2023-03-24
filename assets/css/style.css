@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* removed all the periods before the "header" calls in the CSS because they are no longer classes, semantic elements dont require class selectors in a CSS*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,7 +23,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* changed div to nav because these divs were referring to the navigation bar on the wenpage, a nav is also a semantic element, so changing it from div to nav satifies the acceptance criteria*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -85,13 +85,13 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*got rid of useless classes inside the HTML benefits class in the sidebar and condensed lead class, brand class, cost class into their own articles, then called .benefits article since all three needed the same margin bottom size and color */
 .benefits article
 {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Since all headers that were inside the articles inside the benefits class needed the same margin bottom size and text alignment, i called to them from the CSS with the class selector .benefits and then called to article the called to h3*/
 .benefits article h3 {
     margin-bottom: 10px;
     text-align: center;
